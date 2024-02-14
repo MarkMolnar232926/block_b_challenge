@@ -48,6 +48,10 @@
             color: #666;
             font-style: italic;
         }
+        .character-figure {
+            text-align: center;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -58,59 +62,72 @@
         <p>We have used a method called <span class="highlight">DreamBooth</span> for Fine-Tuning <span class="highlight">Stable Diffusion</span>. It is called DreamBooth because "It's like a photo booth but captures the subject in a way that allows it to be synthesized wherever your dreams take you." DreamBooth requires only a few (typically 3-5) images of the subject to train the model effectively. Once trained, the model can place the subject in a myriad of settings, scenes, and poses, limited only by the user's imagination.</p>
         <p>With this method, we have created a game asset containing different themed maps such as deserts, jungles, and cities. Additionally, we have created different types of characters like a Mage, an Assassin, an Orc, and a Viking.</p>
         <p>We aimed to have the best-fitted maps and characters that matched our vision, so we had to test and create images multiple times. After creating numerous images, we chose the best-suited ones for our game, which is mainly themed around pixel art. You can see the results at the bottom!</p>
-        <figure>
-            <img src="backgrounds/desert_theme1.png" alt="Desert Dunes 1">
-            <figcaption>Desert Dunes 1</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/desert_theme2.png" alt="Desert Dunes 2">
-            <figcaption>Desert Dunes 2</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/desert_theme6.png" alt="Desert Dunes 3">
-            <figcaption>Desert Dunes 3</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/jungle_theme1.png" alt="Wild Jungle 1">
-            <figcaption>Wild Jungle 1</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/jungle_theme2.png" alt="Wild Jungle 2">
-            <figcaption>Wild Jungle 2</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/jungle_theme3.png" alt="Wild Jungle 3">
-            <figcaption>Wild Jungle 3</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/night_theme1.png" alt="Starry Nights 1">
-            <figcaption>Starry Nights 1</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/night_theme2.png" alt="Starry Nights 2">
-            <figcaption>Starry Nights 2</figcaption>
-        </figure>
-        <figure>
-            <img src="backgrounds/night_theme3.png" alt="Starry Nights 3">
-            <figcaption>Starry Nights 3</figcaption>
-        </figure>
-        <figure>
-            <img src="characters/mage.png" alt="Mage Character">
-            <figcaption>Mage Character</figcaption>
-        </figure>
-        <figure>
-            <img src="characters/assasin.png" alt="Assassin Character">
-            <figcaption>Assassin Character</figcaption>
-        </figure>
-        <figure>
-            <img src="characters/orc.png" alt="Orc Character">
-            <figcaption>Orc Character</figcaption>
-        </figure>
-        <figure>
-            <img src="characters/viking.png" alt="Viking Character">
-            <figcaption>Viking Character</figcaption>
-        </figure>
+        
+        <div class="backgrounds">
+            <figure class="background-figure">
+                <img src="backgrounds/desert_theme1.png" alt="Desert Dunes 1">
+                <figcaption>Desert Dunes 1</figcaption>
+            </figure>
+            <figure class="background-figure">
+                <img src="backgrounds/desert_theme2.png" alt="Desert Dunes 2">
+                <figcaption>Desert Dunes 2</figcaption>
+            </figure>
+            <figure class="background-figure">
+                <img src="backgrounds/desert_theme6.png" alt="Desert Dunes 3">
+                <figcaption>Desert Dunes 3</figcaption>
+            </figure>
+        </div>
+        
+        <div class="backgrounds">
+            <figure class="background-figure">
+                <img src="backgrounds/jungle_theme1.png" alt="Wild Jungle 1">
+                <figcaption>Wild Jungle 1</figcaption>
+            </figure>
+            <figure class="background-figure">
+                <img src="backgrounds/jungle_theme2.png" alt="Wild Jungle 2">
+                <figcaption>Wild Jungle 2</figcaption>
+            </figure>
+            <figure class="background-figure">
+                <img src="backgrounds/jungle_theme3.png" alt="Wild Jungle 3">
+                <figcaption>Wild Jungle 3</figcaption>
+            </figure>
+        </div>
+        
+        <div class="backgrounds">
+            <figure class="background-figure">
+                <img src="backgrounds/night_theme1.png" alt="Starry Nights 1">
+                <figcaption>Starry Nights 1</figcaption>
+            </figure>
+            <figure class="background-figure">
+                <img src="backgrounds/night_theme2.png" alt="Starry Nights 2">
+                <figcaption>Starry Nights 2</figcaption>
+            </figure>
+            <figure class="background-figure">
+                <img src="backgrounds/night_theme3.png" alt="Starry Nights 3">
+                <figcaption>Starry Nights 3</figcaption>
+            </figure>
+        </div>
+
+        <div class="character-figures">
+            <figure class="character-figure">
+                <figcaption>Mage Character</figcaption>
+                <img src="characters/mage.png" alt="Mage Character">
+            </figure>
+            <figure class="character-figure">
+                <figcaption>Assassin Character</figcaption>
+                <img src="characters/assasin.png" alt="Assassin Character">
+            </figure>
+            <figure class="character-figure">
+                <figcaption>Orc Character</figcaption>
+                <img src="characters/orc.png" alt="Orc Character">
+            </figure>
+            <figure class="character-figure">
+                <figcaption>Viking Character</figcaption>
+                <img src="characters/viking.png" alt="Viking Character">
+            </figure>
+        </div>
     </div>
 </body>
 </html>
+
 
